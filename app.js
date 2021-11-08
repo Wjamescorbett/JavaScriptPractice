@@ -17,7 +17,7 @@ function practiceOne() {
     console.log("I cant wait for" + " " + dayOfWeek)
 }
 
-// practiceOne()
+practiceOne()
 
 function practiceTwo() {
     let animalInput = prompt("What is your favorite animal?")
@@ -25,7 +25,7 @@ function practiceTwo() {
     console.log ("I've never seen a" + " " + colorInput + " " + animalInput + "!")
 }
 
-// practiceTwo()
+practiceTwo()
 
 // Eggs and sausage, Pizza, Lasagna 
 
@@ -44,7 +44,7 @@ function practiceThree(){
     console.log(mealChosen)
 }
 
-// practiceThree()
+practiceThree()
 
 function practiceFour() {
     let arrayOne = [0,1,2,3,4,5,6,7,8,9,10]
@@ -64,7 +64,7 @@ function practiceFour() {
     }
 }
 
-// practiceFour()
+practiceFour()
 
 function practiceFive(){
     for(let i = 0; i < 7; i++){
@@ -83,14 +83,14 @@ function practiceFive(){
     }
 }
 
-// practiceFive()
+practiceFive()
 
 function printMovieName(){
     favoriteMovie = "Dude, Where's My Car?"
     console.log(favoriteMovie)
 }
 
-// printMovieName()
+printMovieName()
 
 function favoriteBand(){
     bandInput = prompt("What is your favorite band?")
@@ -98,14 +98,14 @@ function favoriteBand(){
     return(bandInput)
 }
 
-// favoriteBand()
+favoriteBand()
 
 function concertDisplay(musicalAct){
     myStreetInput = prompt("What street do you live on?")
     console.log("It would be great if " + musicalAct + " played on " + myStreetInput + "!")
 }
 
-// concertDisplay(favoriteBand())
+concertDisplay(favoriteBand())
 
 function desktopDesk(){
     desktopItems = ["Desk", "Lamp", "Mouse", "Laptop"]
@@ -116,7 +116,7 @@ function desktopDesk(){
         console.log(desktopItems[i])
 }
 
-// desktopDesk()
+desktopDesk()
 
 function magicNumberFunction(){
     let magicNumber = Math.floor(Math.random() * 100)
